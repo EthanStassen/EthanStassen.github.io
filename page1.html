@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Stassen App #1</title>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="../EthanApp/styles/style1.css">
+</head>
+<body>
+    
+    <div id="Page1">
+        <div id="headerdiv">
+            <label id="titlelabel1" >Making Maple Syrup</label>
+        </div>
+
+        <div id="stepsdiv">
+            <label id="stepslabel">How is Maple Syrup made? The steps are as follows:</label><br>
+        </div>
+
+
+            <label id="step1label">Step 1: Tapping</label>
+            <img id="step1img" src="assets/tappingimage.jfif" draggable="false">
+            <p id="step1par">
+                The first step to making maple syrup is to tap <br>
+                trees. You need to get some buckets and spiles, <br> 
+                then find a maple tree. Next, you drill a small <br>
+                hole in the tree and place the spile in the tree <br>
+                and hang the bucket on it.
+            </p>
+
+
+
+            <label id="step2label">Step 2: Collecting</label>
+            <img id="step2img" src="assets/collectingimage.jfif" draggable="false">
+            <p id="step2par">
+                The second step is to collect your sap once the <br>
+                buckets are somewhat full. Make sure to filter it <br>
+                into a bigger bucket for storage.
+            </p>
+
+
+
+            <label id="step3label">Step 3: Boiling</label>
+            <img id="step3img" src="assets/boilingimage.jfif" draggable="false">
+            <p id="step3par">
+                The third step is to boil the sap. This takes <br>
+                a while, but it evaporates all the water from <br>
+                the sap and makes it into actual syrup.
+            </p>
+
+
+
+            <label id="step4label">Step 4: Storing</label>
+            <img id="step4img" src="assets/storingimage.jfif" draggable="false">
+            <p id="step4par">
+                The final step once you are done boiling is to <br>
+                store or eat your syrup! Syrup is best stored in <br>
+                glass jars or jugs.
+            </p>
+  
+
+            <div id="startbuttondiv">
+            <label id="anotherlabel">Click the button below to start a maple syrup minigame!</label>
+            <button class="btn" id="startbutton">Begin Making Maple Syrup!</button>
+        </div>
+
+    </div>
+
+
+
+    <a href="page2.html"></a>
+
+    <script src = "../EthanApp/javascript/page1.js"></script>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
+"></script>
+
+<script>
+    particlesJS.load("headerdiv", "/EthanApp/assets/particles.json", function(){
+        console.log("loaded particles.json");
+    });
+    
+</script>
+
+</body>
+</html>
+
